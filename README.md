@@ -83,6 +83,28 @@ All 6 mandatory models + 2 hyperparameter-tuned variants, evaluated on a stratif
 
 ---
 
+## 📸 Visual Evidence & Analysis Outputs
+
+### Target Class Distribution
+![Churn Distribution](visuals/01_churn_distribution.png)
+
+### Bivariate Analysis — Contract, Payment & Internet Service vs Churn
+![Bivariate Service Churn](visuals/04_bivariate_service_churn.png)
+
+### Feature Correlation Heatmap
+![Correlation Heatmap](visuals/05_correlation_heatmap.png)
+
+### Multi-Model ROC Curves
+![ROC Curves](visuals/07_roc_curves.png)
+
+### Confusion Matrix Comparison Grid (All 6 Models)
+![Confusion Matrices](visuals/08_confusion_matrices.png)
+
+### Feature Importance — XGBoost & Random Forest (Tuned)
+![Feature Importance](visuals/10_feature_importance.png)
+
+---
+
 ## 🖥️ Dashboard Sections (Streamlit)
 
 The interactive web application includes **6 fully functional sections** as required:
